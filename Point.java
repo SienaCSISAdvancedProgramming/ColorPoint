@@ -10,8 +10,10 @@
 
 public class Point {
 
+    // must change the protection from "private" to "protected" so
+    // classes that extend this class have access
     /** the coordinates */
-    private double x, y;
+    protected double x, y;
     
     /**
      * Constructor a default point at (0,0)
