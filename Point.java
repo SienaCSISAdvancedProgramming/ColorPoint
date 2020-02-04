@@ -86,6 +86,7 @@ public class Point {
     /**
      * @return string representation of this Point
      */
+    @Override
     public String toString() {
         
         return "(" + x + "," + y + ")";

@@ -47,6 +47,7 @@ public class ColorPoint extends Point {
      * 
      * @return string representation of our ColorPoint
      */
+    @Override
     public String toString() {
         
         return "(" + x + "," + y + ") " + color;
